@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 2px solid #CCCCCC;
+    text-align: center;
+}
+
+.company-name {
+    color: #800080; /* Purple color for company name */
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero-section {
+    background-color: #87CEEB; /* Sky blue background */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.about-section, .services-section, .partners-section, .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.partner {
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #800080; /* Purple button */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #660066;
+}
+
+footer {
+    background-color: #333;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
